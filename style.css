@@ -11,12 +11,21 @@ FONT SIZE SYSTEM (px)
   padding: 0;
   box-sizing: border-box;
 }
+/* 
+MAIN COLOR : #087F5B
+GREY COLOR : #343A40
+TINT COLOR : #099268;
+
+
+*/
+
 
 /* ------------------------ */
 /* GENERAL STYLES */
 /* ------------------------ */
 body {
   font-family: 'Inter',sans-serif;
+  color:#343A40;
 }
 
 .container {
@@ -91,6 +100,9 @@ img {
 
 /* TESTIMONIAL */
 .testimonial-section {
+  background-color: #087F5B;
+  color:#fff;
+  padding:24px;
 }
 
 .testimonial-box {
@@ -146,4 +158,32 @@ h3 {
 footer {
   margin-bottom: 48px;
   font-size:14px;
+  color:#495057;
+}
+
+.btn:link,
+.btn:visited{
+  background-color:#087F5B;
+  color:#fff;
+  text-decoration:none;
+  text-transform:uppercase;
+  padding:16px 32px;
+  display:inline-block;
+  font-weight:500;
+  font-size:18px;
+}
+
+.btn:hover,
+.btn:active{
+  background-color : #099268;
+
+}
+
+.btn--big{
+font-size:18px;
+padding:16px 32px;
+}
+.btn--small{
+  font-size:14px;
+  padding:8px 12px;
 }
