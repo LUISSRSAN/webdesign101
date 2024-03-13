@@ -85,7 +85,11 @@ img {
 }
 
 /* FEATURES */
-.features-icon {
+.feature-icon {
+  stroke:#087F5B;
+  width:32px;
+  height:32px;
+  margin-bottom:15px;
 }
 
 .features-title {
@@ -185,5 +189,9 @@ padding:16px 32px;
 }
 .btn--small{
   font-size:14px;
-  padding:8px 12px;
+  padding:14px 18px;
+  background-color : #099268;
+  color:white;
+  text-decoration:none;
+  font-size:16px;
 }
